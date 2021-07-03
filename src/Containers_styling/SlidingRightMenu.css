@@ -1,0 +1,124 @@
+#roundButton2 {
+  background-color: #96D9FF;
+  margin-bottom: 0px;
+  width: 30px;
+  height: 30px;
+  border-radius: 35%;
+  border: 10px solid #0065A6;
+  outline: none;
+  transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
+
+#roundButton2:hover {
+  background-color: #96D9FF;
+  cursor: pointer;
+  border-color: #003557;
+  transform: scale(1.2, 1.2);
+}
+
+#roundButton2:active {
+  border-color: #003557;
+  background-color: #FFF;
+}
+
+#roundButton4 {
+  background-color: #96D9FF;
+  margin-bottom: 10px;
+  margin-top: 80px;
+  width: 35px;
+  height: 35px;
+  border-radius: 35%;
+  border: 10px solid #0065A6;
+  outline: none;
+  transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
+
+#roundButton4:hover {
+  background-color: #96D9FF;
+  cursor: pointer;
+  border-color: #003557;
+  transform: scale(1.2, 1.2);
+}
+
+#roundButton4:active {
+  border-color: #003557;
+  background-color: #FFF;
+}
+
+button { color: blue; }
+button:active { color: white; }
+
+
+#flyoutMenu2 {
+  width: 40vw;
+  height: 100%;
+  padding-top: 150px;
+  background-color: #3AD8FF;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  border-left: 5px solid #343A40;
+  z-index: 1000;
+}
+
+#flyoutMenu2.hide {
+  transform: translate3d(134vw, 0, 0);
+}
+
+#flyoutMenu2.show {
+  transform: translate3d(100vw, 0, 0);
+
+}
+
+#flyoutMenu2.hide h4 {
+  display: none;
+}
+
+#flyoutMenu2 h4 {
+  text-decoration: none;
+}
+
+#flyoutMenu2 h4:hover {
+  text-decoration: underline;
+}
+
+
+
+
+#flyoutMenu4 {
+  width: 60vw;
+  height: 100%;
+  padding-top: 50px;
+  background-color: #3AD8FF;
+  position: fixed;
+  top: 0;
+  right: 100%;
+  transition: transform .3s
+              cubic-bezier(0, .52, 0, 1);
+  border-left: 5px solid #343A40;
+  z-index: 1000;
+}
+
+#flyoutMenu4.hide {
+  transform: translate3d(152vw, 0, 0);
+
+}
+
+#flyoutMenu4.show {
+  transform: translate3d(100vw, 0, 0);
+
+}
+
+#flyoutMenu4.hide h4 {
+  display: none;
+}
+
+#flyoutMenu4 h4 {
+  text-decoration: none;
+}
+
+#flyoutMenu4 h4:hover {
+  text-decoration: underline;
+}
